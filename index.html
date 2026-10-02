@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="SPAMLY 🛡️ - AI Spam Detection & Message Safety Assistant. Your cute little AI companion against spam."
+    />
+    <title>SPAMLY 🛡️ | AI Spam Detection & Message Safety Assistant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-glow page-glow-one"></div>
+    <div class="page-glow page-glow-two"></div>
+    <div class="sky-scene" aria-hidden="true">
+      <div class="moon"></div>
+      <div class="starfield"></div>
+      <div class="cloud cloud-one"></div>
+      <div class="cloud cloud-two"></div>
+      <div class="sparkles"></div>
+    </div>
+
+    <header class="topbar container">
+      <a href="#home" class="brand" aria-label="SPAMLY home">
+        <span class="brand-mark">
+          <span class="shield-icon">
+            <span class="shield-inner"></span>
+            <span class="spark"></span>
+          </span>
+        </span>
+        <span class="brand-text">SPAMLY <span class="brand-icon">🛡️</span></span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#home" class="active">Home</a>
+        <a href="#message-check">Message Check</a>
+        <a href="#email-check">Email Check</a>
+        <a href="#history">History</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#safety-tips">Safety Tips</a>
+        <a href="#about">About</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero container section-spacing">
+        <div class="hero-copy">
+          <span class="eyebrow">AI-POWERED SPAM PROTECTION ✨</span>
+          <h1>Stay Safe From Spam</h1>
+          <p class="hero-subtext">
+            Your cute little AI companion for spotting suspicious messages and emails before they cause trouble.
+          </p>
+          <div class="hero-actions">
+            <a href="#message-check" class="btn btn-primary">Check a Message 💬</a>
+            <a href="#email-check" class="btn btn-secondary">Check an Email 📧</a>
+          </div>
+          <div class="mini-trust">
+            <span>✅ Demo-ready</span>
+            <span>🔐 Privacy focused</span>
+            <span>🧠 Smart risk checks</span>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Cute cybersecurity mascot illustration">
+          <div class="mascot-card glass-card">
+            <div class="shield-avatar">
+              <div class="shield-body">
+                <div class="shield-inner-icon">
+                  <span class="checkmark"></span>
+                </div>
+                <div class="floating-spark sparkle-one"></div>
+                <div class="floating-spark sparkle-two"></div>
+              </div>
+            </div>
+            <div class="mascot-bubble">
+              <span>Safe & sound ✨</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features container section-spacing">
+        <div class="section-heading center">
+          <span class="eyebrow small">Your Digital Safety Buddy 💜</span>
+          <h2>Smart protection for every message</h2>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card glass-card">
+            <div class="card-icon">💬</div>
+            <h3>Message Detection</h3>
+            <p>Check suspicious SMS and text messages before you trust them.</p>
+          </article>
+
+          <article class="feature-card glass-card">
+            <div class="card-icon">📧</div>
+            <h3>Email Detection</h3>
+            <p>Analyze suspicious emails and scammy patterns in the subject or content.</p>
+          </article>
+
+          <article class="feature-card glass-card">
+            <div class="card-icon">🧠</div>
+            <h3>AI Prediction</h3>
+            <p>Machine learning will classify messages as spam or safe in a demo-ready flow.</p>
+          </article>
+
+          <article class="feature-card glass-card">
+            <div class="card-icon">🛡️</div>
+            <h3>Safety Tips</h3>
+            <p>Learn how to recognize phishing attempts, scam links, and fake urgency.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="stats container section-spacing">
+        <div class="stats-grid">
+          <div class="stat-card glass-card">
+            <div class="stat-value">99%+</div>
+            <div class="stat-label">Example Detection Accuracy</div>
+            <small>Demo project statistic</small>
+          </div>
+          <div class="stat-card glass-card">
+            <div class="stat-value">24/7</div>
+            <div class="stat-label">Digital Safety</div>
+            <small>Always-on awareness</small>
+          </div>
+          <div class="stat-card glass-card">
+            <div class="stat-value">2</div>
+            <div class="stat-label">Detection Modes</div>
+            <small>Message + Email</small>
+          </div>
+          <div class="stat-card glass-card">
+            <div class="stat-value">100%</div>
+            <div class="stat-label">Privacy Focused</div>
+            <small>Frontend-only demo</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="how-preview container section-spacing">
+        <div class="section-heading center">
+          <span class="eyebrow small">How It Works Preview</span>
+          <h2>Fast, friendly, and easy to understand</h2>
+        </div>
+
+        <div class="pipeline-flow">
+          <div class="flow-step glass-card">
+            <span class="flow-icon">💬</span>
+            <span>Enter Message</span>
+          </div>
+          <div class="flow-arrow">↓</div>
+          <div class="flow-step glass-card">
+            <span class="flow-icon">🔍</span>
+            <span>Analyze Text</span>
+          </div>
+          <div class="flow-arrow">↓</div>
+          <div class="flow-step glass-card">
+            <span class="flow-icon">🧠</span>
+            <span>ML Model</span>
+          </div>
+          <div class="flow-arrow">↓</div>
+          <div class="flow-step glass-card">
+            <span class="flow-icon">🛡️</span>
+            <span>Spam Detection</span>
+          </div>
+          <div class="flow-arrow">↓</div>
+          <div class="flow-step glass-card result-step">
+            <span class="flow-icon">✨</span>
+            <span>Result</span>
+          </div>
+        </div>
+
+        <div class="center-row">
+          <a href="#how-it-works" class="btn btn-primary">Learn How It Works →</a>
+        </div>
+      </section>
+
+      <section class="cta-strip container section-spacing">
+        <div class="cta-box glass-card">
+          <div>
+            <p class="cta-small">Not sure about that message?</p>
+            <h3>Let Spamly take a second look.</h3>
+          </div>
+          <a href="#message-check" class="btn btn-primary">Check Now ✨</a>
+        </div>
+      </section>
+
+      <section id="message-check" class="page-panel container section-spacing">
+        <div class="section-heading">
+          <span class="eyebrow small">Message Check 💬</span>
+          <h2>Paste a suspicious message and let Spamly analyze it.</h2>
+        </div>
+
+        <div class="checker-grid">
+          <div class="checker-panel glass-card">
+            <textarea id="message-input" maxlength="5000" placeholder="Paste your suspicious message here..."></textarea>
+            <div class="toolbar-row">
+              <span id="message-counter" class="char-counter">0 / 5000</span>
+              <div class="button-row">
+                <button id="check-message-btn" class="btn btn-primary">🔍 Check for Spam</button>
+                <button id="clear-message-btn" class="btn btn-ghost">Clear</button>
+              </div>
+            </div>
+
+            <div class="example-list">
+              <h4>Try an example</h4>
+              <div class="chip-group">
+                <button class="example-chip" data-example="Congratulations! You won ₹50,000. Click this link to claim your prize!">Prize alert</button>
+                <button class="example-chip" data-example="Hey! Are we still meeting at 5 PM today?">Normal chat</button>
+                <button class="example-chip" data-example="URGENT! Your account will be blocked. Verify your details immediately.">Account alert</button>
+                <button class="example-chip" data-example="Your OTP is 482931. Do not share it with anyone.">OTP warning</button>
+              </div>
+            </div>
+          </div>
+
+          <div id="message-result-card" class="result-card glass-card hidden">
+            <div class="result-header">
+              <span id="message-result-icon" class="result-icon">🛡️</span>
+              <div>
+                <div class="result-badge">Demo Detection</div>
+                <h3 id="message-status">Looks Safe</h3>
+              </div>
+            </div>
+
+            <div class="confidence-wrap">
+              <div class="confidence-label">
+                <span>Confidence</span>
+                <strong id="message-confidence-label">92%</strong>
+              </div>
+              <div class="progress-bar">
+                <span id="message-confidence-bar"></span>
+              </div>
+            </div>
+
+            <p id="message-result-text" class="result-text">
+              This message does not contain many common spam indicators.
+            </p>
+
+            <div class="why-box">
+              <h4>Why this result?</h4>
+              <ul id="message-reasons">
+                <li>Urgent language</li>
+                <li>Suspicious links</li>
+                <li>Prize/reward language</li>
+                <li>Request for personal information</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="email-check" class="page-panel container section-spacing">
+        <div class="section-heading">
+          <span class="eyebrow small">Email Safety Check 📧</span>
+          <h2>Check suspicious emails before you click anything.</h2>
+        </div>
+
+        <div class="checker-grid email-grid">
+          <div class="checker-panel glass-card">
+            <div class="field-row">
+              <label for="sender-email">Sender Email</label>
+              <input id="sender-email" type="email" placeholder="name@example.com" />
+            </div>
+
+            <div class="field-row">
+              <label for="email-subject">Subject</label>
+              <input id="email-subject" type="text" placeholder="Important account verification" />
+            </div>
+
+            <div class="field-row">
+              <label for="email-body">Email Content</label>
+              <textarea id="email-body" placeholder="Write or paste the suspicious email here..."></textarea>
+            </div>
+
+            <div class="file-uploads">
+              <label class="upload-box">
+                <input id="email-file-input" type="file" accept=".txt,.eml" />
+                <span>📁 Upload Email File</span>
+              </label>
+            </div>
+
+            <div class="button-row right-align">
+              <button id="check-email-btn" class="btn btn-primary">🔍 Analyze Email</button>
+              <button id="clear-email-btn" class="btn btn-ghost">Clear</button>
+            </div>
+          </div>
+
+          <div id="email-result-card" class="result-card glass-card hidden">
+            <div class="result-header">
+              <span id="email-result-icon" class="result-icon">🛡️</span>
+              <div>
+                <div class="result-badge">Demo Detection</div>
+                <h3 id="email-status">Safe</h3>
+              </div>
+            </div>
+
+            <div class="confidence-wrap">
+              <div class="confidence-label">
+                <span>Confidence</span>
+                <strong id="email-confidence-label">92%</strong>
+              </div>
+              <div class="progress-bar">
+                <span id="email-confidence-bar"></span>
+              </div>
+            </div>
+
+            <div class="why-box">
+              <h4>Risk Indicators</h4>
+              <ul id="email-risks">
+                <li>⚠ Suspicious sender</li>
+                <li>⚠ Urgent language</li>
+                <li>⚠ Suspicious link</li>
+                <li>⚠ Request for personal information</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="history" class="page-panel container section-spacing">
+        <div class="history-header">
+          <div class="section-heading">
+            <span class="eyebrow small">Your Detection History 📊</span>
+            <h2>Past checks saved in your browser</h2>
+          </div>
+          <div class="history-actions">
+            <div class="filter-group" aria-label="History filters">
+              <button class="filter-btn active" data-filter="all">All</button>
+              <button class="filter-btn" data-filter="spam">Spam</button>
+              <button class="filter-btn" data-filter="safe">Safe</button>
+              <button class="filter-btn" data-filter="message">Messages</button>
+              <button class="filter-btn" data-filter="email">Emails</button>
+            </div>
+            <button id="clear-history-btn" class="btn btn-ghost">Clear History</button>
+          </div>
+        </div>
+
+        <div id="history-list" class="history-list"></div>
+        <div id="empty-history" class="empty-state glass-card hidden">
+          <div class="empty-icon">🌙</div>
+          <h3>No detections yet 🌙</h3>
+          <p>Your checked messages will appear here.</p>
+        </div>
+      </section>
+
+      <section id="how-it-works" class="page-panel container section-spacing">
+        <div class="section-heading center">
+          <span class="eyebrow small">How Spam Detection Works 🧠</span>
+          <h2>Inside the ML flow</h2>
+        </div>
+
+        <div class="ml-pipeline">
+          <div class="pipeline-card glass-card">
+            <span class="step-number">STEP 1</span>
+            <h3>User Input</h3>
+            <p>User enters a message or email.</p>
+          </div>
+          <div class="pipeline-arrow">↓</div>
+          <div class="pipeline-card glass-card">
+            <span class="step-number">STEP 2</span>
+            <h3>Text Preprocessing</h3>
+            <p>Clean unnecessary characters and prepare the text.</p>
+          </div>
+          <div class="pipeline-arrow">↓</div>
+          <div class="pipeline-card glass-card">
+            <span class="step-number">STEP 3</span>
+            <h3>TF-IDF Vectorization</h3>
+            <p>Convert text into numerical features.</p>
+          </div>
+          <div class="pipeline-arrow">↓</div>
+          <div class="pipeline-card glass-card">
+            <span class="step-number">STEP 4</span>
+            <h3>Machine Learning Model</h3>
+            <p>Use a classification algorithm such as Multinomial Naive Bayes.</p>
+          </div>
+          <div class="pipeline-arrow">↓</div>
+          <div class="pipeline-card glass-card">
+            <span class="step-number">STEP 5</span>
+            <h3>Prediction</h3>
+            <p>Model predicts: SPAM or SAFE</p>
+          </div>
+          <div class="pipeline-arrow">↓</div>
+          <div class="pipeline-card glass-card">
+            <span class="step-number">STEP 6</span>
+            <h3>Result</h3>
+            <p>Display prediction and confidence to the user.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="safety-tips" class="page-panel container section-spacing">
+        <div class="section-heading center">
+          <span class="eyebrow small">Stay Safe Online 🛡️</span>
+          <h2>Quick habits that keep you protected</h2>
+        </div>
+
+        <div class="tips-grid">
+          <article class="tip-card glass-card">
+            <div class="tip-icon">🔗</div>
+            <h3>Suspicious Links</h3>
+            <p>Don’t click unknown links.</p>
+          </article>
+          <article class="tip-card glass-card">
+            <div class="tip-icon">🎁</div>
+            <h3>Fake Prizes</h3>
+            <p>Be careful with unexpected prize messages.</p>
+          </article>
+          <article class="tip-card glass-card">
+            <div class="tip-icon">🚨</div>
+            <h3>Urgent Requests</h3>
+            <p>Scammers often create unnecessary urgency.</p>
+          </article>
+          <article class="tip-card glass-card">
+            <div class="tip-icon">🔐</div>
+            <h3>Password Requests</h3>
+            <p>Never share passwords.</p>
+          </article>
+          <article class="tip-card glass-card">
+            <div class="tip-icon">🔢</div>
+            <h3>OTP Requests</h3>
+            <p>Never share OTPs with anyone.</p>
+          </article>
+          <article class="tip-card glass-card">
+            <div class="tip-icon">💳</div>
+            <h3>Payment Requests</h3>
+            <p>Verify unexpected payment requests.</p>
+          </article>
+          <article class="tip-card glass-card">
+            <div class="tip-icon">📧</div>
+            <h3>Unknown Senders</h3>
+            <p>Be careful with unfamiliar email addresses.</p>
+          </article>
+        </div>
+
+        <div class="remember-box glass-card">
+          <h3>Remember 💜</h3>
+          <p>Pause. Check. Think before you click.</p>
+        </div>
+      </section>
+
+      <section id="about" class="page-panel container section-spacing">
+        <div class="section-heading center">
+          <span class="eyebrow small">About Spamly 💜</span>
+          <h2>Built for learning, safety, and awareness</h2>
+        </div>
+
+        <div class="about-card glass-card">
+          <p>
+            Spamly is a student machine-learning project designed to demonstrate how text classification can be used to identify potentially unwanted messages and emails.
+          </p>
+
+          <div class="about-sections">
+            <div>
+              <h3>Project Objective</h3>
+              <ul>
+                <li>Detect spam messages</li>
+                <li>Detect suspicious emails</li>
+                <li>Demonstrate text preprocessing</li>
+                <li>Demonstrate TF-IDF</li>
+                <li>Demonstrate machine learning classification</li>
+                <li>Provide basic online safety education</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3>Technologies</h3>
+              <ul>
+                <li>Frontend: HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Responsive Design</li>
+                <li>LocalStorage</li>
+                <li>Fetch API ready for future backend</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer container">
+      <p>SPAMLY 🛡️ — Your cute little AI companion against spam.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
